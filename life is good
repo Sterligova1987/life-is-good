@@ -1,0 +1,16 @@
+/* C Program to Calculate Square of a Number */
+#include<stdio.h>
+int main() {
+    int number, Square;
+    printf(" \n Please Enter a Number: ");
+    scanf("%d", &number);
+    Square = Calculate_Square(number);
+    printf("\n The Square of the Given Number is: %d", Square);
+    return 0;
+}
+
+int Calculate_Square(int Number) {
+    int result;
+    result = Number * Number;
+    return result;
+}
